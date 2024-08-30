@@ -1,0 +1,108 @@
+﻿html
+{
+    height : 100%;
+}
+body {
+    background-color : #ff9018;
+    background-size : cover;
+    height: 100%;
+    
+}
+table
+{
+    box-shadow : 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0 , 0, 0, 0.19);
+}
+th
+{
+    background-color: #ddf71c;
+    border-radius : 8px;
+    text-align : center;   
+    font-weight: 900;
+    font-size: 140%;
+    box-shadow : 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0 , 0, 0, 0.19);
+}
+td{
+    color: #ffffff;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 130%;
+    box-shadow : 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0 , 0, 0, 0.19);
+}
+
+#TextBox1,#TextBox2,#TextBox3,#TextBox4,#TextBox5,#TextBox6,#TextBox7,#DropDownList1
+{
+    width : 100%;
+    padding : 12px 20px;
+    margin : 8px 0;
+    display : inline-block;
+    border : 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+
+}
+#TextBox1,#TextBox2,#TextBox3,#TextBox4,#TextBox5,#TextBox6,#TextBox7,#DropDownList1:focus{
+    outline: 1px solid rgb(0, 0, 0);
+}
+#TextBox1,#TextBox2,#TextBox3,#TextBox4,#TextBox5,#TextBox6,#TextBox7:hover{
+    transform: translateY(-1px);
+}
+#Button1 , #Button2,#login { 
+    width: 100%;
+    background-color: #ffe600;
+    color: rgb(0, 0, 0);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: medium;
+}
+#Button1 , #Button2 ,#login :hover{
+    background-color: #fff200;
+    text-align: center;
+} 
+#form1{
+    border-radius: 12px ;
+    background-color: #f6956c;
+    padding: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    box-shadow : 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0 , 0, 0, 0.19);
+}
+.reg_btn
+{
+    width : 10%;
+}
+.trucker_reg_frm
+{
+    
+    
+}
+
+/*Navigation BAS*/
+.topnav
+{
+    overflow : hidden;
+    background-color : #333;
+}
+.topnav a
+{
+    float:left;
+    color : #f2f2f2;
+    text-align : center;
+    padding :14px 16px;
+    text-decoration : none;
+    font-size : 17px;
+}
+.topnav a:hover
+{
+    background-color: #ddd;
+    color:Black;
+}
+.topnav a.active
+{
+    background-color : #04AA6d;
+    color:White;
+
+
